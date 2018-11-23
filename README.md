@@ -2,8 +2,8 @@
 
 # 部署方法
 
-    git clone https://github.com/iceyhexman/onlinetools.git
-    cd onlinetools
+    git clone https://github.com/WaIdo/InfocollectTOOL.git
+    cd InfocollectTOOL
     pip3 install -r requirements.txt
     nohup python3 main.py &
 
