@@ -9,11 +9,10 @@
 
 # Docker 部署
 
-    git clone https://github.com/iceyhexman/onlinetools.git
-    cd onlinetools
-    docker build -t onlinetools .
-    docker run -d -p 8000:8000 onlinetools
-
+    git clone https://github.com/WaIdo/InfocollectTOOL.git
+    cd InfocollectTOOL
+    docker build -t InfocollectTOOL .
+    docker run -d -p 8000:8000 InfocollectTOOL
 浏览器打开
 
     http://localhost:8000/
