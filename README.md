@@ -2,17 +2,17 @@
 
 # 本地部署方法
 
-    git clone https://github.com/WaIdo/InfocollectTOOL.git
-    cd InfocollectTOOL
+    git clone https://github.com/WaIdo/infocollecttool.git
+    cd infocollecttool
     pip3 install -r requirements.txt
     nohup python3 main.py &
 
 # Docker 部署
 
-    git clone https://github.com/WaIdo/InfocollectTOOL.git
-    cd InfocollectTOOL
-    docker build -f 路径/InfocollectTOOL/Dockerfile .
-    docker run -d -p 8000:8000 InfocollectTOOL
+    git clone https://github.com/WaIdo/infocollecttool.git
+    cd infocollecttool
+    docker build -f 路径/infocollecttool/Dockerfile .
+    docker run -d -p 8000:8000 infocollecttool
 浏览器打开
 
     http://localhost:8000/
