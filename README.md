@@ -1,6 +1,6 @@
 # infocollecttool
 
-# 部署方法
+# 本地部署方法
 
     git clone https://github.com/WaIdo/InfocollectTOOL.git
     cd InfocollectTOOL
