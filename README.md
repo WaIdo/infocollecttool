@@ -11,7 +11,7 @@
 
     git clone https://github.com/WaIdo/InfocollectTOOL.git
     cd InfocollectTOOL
-    docker build -t InfocollectTOOL .
+    docker build -f 路径/InfocollectTOOL/Dockerfile .
     docker run -d -p 8000:8000 InfocollectTOOL
 浏览器打开
 
