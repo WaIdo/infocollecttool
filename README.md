@@ -7,15 +7,6 @@
     pip3 install -r requirements.txt
     nohup python3 main.py &
 
-# Docker 部署
-
-    git clone https://github.com/WaIdo/infocollecttool.git
-    cd infocollecttool
-    docker build -f 路径/infocollecttool/Dockerfile .
-    docker image 注:查看容器ID，REPOSITORY为none的ID
-    docker run -d -p 8000:8000 容器ID
-浏览器打开
-
     http://localhost:8000/
 
 # 说明
