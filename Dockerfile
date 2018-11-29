@@ -6,5 +6,5 @@ RUN git clone https://github.com/WaIdo/infocollecttool.git /infocollecttool
 WORKDIR /infocollecttool
 RUN pip install -r requirements.txt && \
     rm -fr ~/.cache/pip
-EXPOSE 8000
+EXPOSE 4474
 CMD ["python","/infocollecttool/main.py"]
